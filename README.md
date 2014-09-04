@@ -4,7 +4,7 @@
 > https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage#gajs
 
 ## Install
-    $ npm install -g phonegap
+    $ npm install ga_cookie_js_parser
 
     $ var gaCookieParser = require('ga_cookie_js_parser')
 
