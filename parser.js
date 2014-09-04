@@ -50,7 +50,7 @@
       else if (type === 'utmz') {
         resObj.domainHash = content[0];
         resObj.lastCookiesUpdateTs = Number(content[1]); // unix timestamp
-        resObj.sessionCounter = Number(content[2]); // number of sessions
+        resObj.sessionCounter = Number(content[2]); // number of sessions from incoming sites
         resObj.resourceCounter = Number(content[3]); // number of sites, which user comes from
 
         // utmcsr: 'google' - source

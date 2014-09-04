@@ -1,0 +1,121 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/serjopepper/.nvm/v0.10.26/bin/node',
+1 verbose cli   '/Users/serjopepper/.nvm/v0.10.26/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/serjopepper/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-98651-jjDosHDW/1409846305981-0.48131127026863396/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-98651-jjDosHDW/1409846305981-0.48131127026863396/tmp.tgz
+12 verbose folder .
+13 info prepublish ga_cookie_js_parser@0.0.1
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/serjopepper/.npm/1f1177db-tar.lock
+16 silly lockFile ac4ee770-5981-0-48131127026863396-tmp-tgz tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-98651-jjDosHDW/1409846305981-0.48131127026863396/tmp.tgz
+17 verbose lock tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-98651-jjDosHDW/1409846305981-0.48131127026863396/tmp.tgz /Users/serjopepper/.npm/ac4ee770-5981-0-48131127026863396-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile ac4ee770-5981-0-48131127026863396-tmp-tgz tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-98651-jjDosHDW/1409846305981-0.48131127026863396/tmp.tgz
+21 silly lockFile ac4ee770-5981-0-48131127026863396-tmp-tgz tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-98651-jjDosHDW/1409846305981-0.48131127026863396/tmp.tgz
+22 verbose tar unpack /var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-98651-jjDosHDW/1409846305981-0.48131127026863396/tmp.tgz
+23 silly lockFile fb1072cc-5981-0-48131127026863396-package tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-98651-jjDosHDW/1409846305981-0.48131127026863396/package
+24 verbose lock tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-98651-jjDosHDW/1409846305981-0.48131127026863396/package /Users/serjopepper/.npm/fb1072cc-5981-0-48131127026863396-package.lock
+25 silly lockFile ac4ee770-5981-0-48131127026863396-tmp-tgz tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-98651-jjDosHDW/1409846305981-0.48131127026863396/tmp.tgz
+26 verbose lock tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-98651-jjDosHDW/1409846305981-0.48131127026863396/tmp.tgz /Users/serjopepper/.npm/ac4ee770-5981-0-48131127026863396-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry README.md
+30 silly gunzTarPerm extractEntry parser.js
+31 silly lockFile fb1072cc-5981-0-48131127026863396-package tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-98651-jjDosHDW/1409846305981-0.48131127026863396/package
+32 silly lockFile fb1072cc-5981-0-48131127026863396-package tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-98651-jjDosHDW/1409846305981-0.48131127026863396/package
+33 silly lockFile ac4ee770-5981-0-48131127026863396-tmp-tgz tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-98651-jjDosHDW/1409846305981-0.48131127026863396/tmp.tgz
+34 silly lockFile ac4ee770-5981-0-48131127026863396-tmp-tgz tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-98651-jjDosHDW/1409846305981-0.48131127026863396/tmp.tgz
+35 verbose tar pack [ '/Users/serjopepper/.npm/ga_cookie_js_parser/0.0.1/package.tgz',
+35 verbose tar pack   '/var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-98651-jjDosHDW/1409846305981-0.48131127026863396/package' ]
+36 verbose tarball /Users/serjopepper/.npm/ga_cookie_js_parser/0.0.1/package.tgz
+37 verbose folder /var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-98651-jjDosHDW/1409846305981-0.48131127026863396/package
+38 silly lockFile fb1072cc-5981-0-48131127026863396-package tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-98651-jjDosHDW/1409846305981-0.48131127026863396/package
+39 verbose lock tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-98651-jjDosHDW/1409846305981-0.48131127026863396/package /Users/serjopepper/.npm/fb1072cc-5981-0-48131127026863396-package.lock
+40 silly lockFile e3067586-okie-js-parser-0-0-1-package-tgz tar:///Users/serjopepper/.npm/ga_cookie_js_parser/0.0.1/package.tgz
+41 verbose lock tar:///Users/serjopepper/.npm/ga_cookie_js_parser/0.0.1/package.tgz /Users/serjopepper/.npm/e3067586-okie-js-parser-0-0-1-package-tgz.lock
+42 silly lockFile fb1072cc-5981-0-48131127026863396-package tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-98651-jjDosHDW/1409846305981-0.48131127026863396/package
+43 silly lockFile fb1072cc-5981-0-48131127026863396-package tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-98651-jjDosHDW/1409846305981-0.48131127026863396/package
+44 silly lockFile e3067586-okie-js-parser-0-0-1-package-tgz tar:///Users/serjopepper/.npm/ga_cookie_js_parser/0.0.1/package.tgz
+45 silly lockFile e3067586-okie-js-parser-0-0-1-package-tgz tar:///Users/serjopepper/.npm/ga_cookie_js_parser/0.0.1/package.tgz
+46 silly lockFile 62c4043b-a-cookie-js-parser-0-0-1-package /Users/serjopepper/.npm/ga_cookie_js_parser/0.0.1/package
+47 verbose lock /Users/serjopepper/.npm/ga_cookie_js_parser/0.0.1/package /Users/serjopepper/.npm/62c4043b-a-cookie-js-parser-0-0-1-package.lock
+48 silly lockFile 62c4043b-a-cookie-js-parser-0-0-1-package /Users/serjopepper/.npm/ga_cookie_js_parser/0.0.1/package
+49 silly lockFile 62c4043b-a-cookie-js-parser-0-0-1-package /Users/serjopepper/.npm/ga_cookie_js_parser/0.0.1/package
+50 verbose tar unpack /Users/serjopepper/.npm/ga_cookie_js_parser/0.0.1/package.tgz
+51 silly lockFile 111e84db-a-cookie-js-parser-0-0-1-package tar:///Users/serjopepper/.npm/ga_cookie_js_parser/0.0.1/package
+52 verbose lock tar:///Users/serjopepper/.npm/ga_cookie_js_parser/0.0.1/package /Users/serjopepper/.npm/111e84db-a-cookie-js-parser-0-0-1-package.lock
+53 silly lockFile e3067586-okie-js-parser-0-0-1-package-tgz tar:///Users/serjopepper/.npm/ga_cookie_js_parser/0.0.1/package.tgz
+54 verbose lock tar:///Users/serjopepper/.npm/ga_cookie_js_parser/0.0.1/package.tgz /Users/serjopepper/.npm/e3067586-okie-js-parser-0-0-1-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 silly gunzTarPerm extractEntry package.json
+57 silly gunzTarPerm extractEntry README.md
+58 silly gunzTarPerm extractEntry parser.js
+59 silly lockFile 111e84db-a-cookie-js-parser-0-0-1-package tar:///Users/serjopepper/.npm/ga_cookie_js_parser/0.0.1/package
+60 silly lockFile 111e84db-a-cookie-js-parser-0-0-1-package tar:///Users/serjopepper/.npm/ga_cookie_js_parser/0.0.1/package
+61 silly lockFile e3067586-okie-js-parser-0-0-1-package-tgz tar:///Users/serjopepper/.npm/ga_cookie_js_parser/0.0.1/package.tgz
+62 silly lockFile e3067586-okie-js-parser-0-0-1-package-tgz tar:///Users/serjopepper/.npm/ga_cookie_js_parser/0.0.1/package.tgz
+63 verbose chmod /Users/serjopepper/.npm/ga_cookie_js_parser/0.0.1/package.tgz 644
+64 verbose chown /Users/serjopepper/.npm/ga_cookie_js_parser/0.0.1/package.tgz [ 501, 20 ]
+65 silly lockFile 3a52ce78- .
+66 silly lockFile 3a52ce78- .
+67 silly publish { name: 'ga_cookie_js_parser',
+67 silly publish   version: '0.0.1',
+67 silly publish   description: 'Parse GA cookies with JS',
+67 silly publish   main: 'package.json',
+67 silly publish   author: { name: 'Serjo Pepper' },
+67 silly publish   engines: { node: '*' },
+67 silly publish   readme: 'ERROR: No README data found!',
+67 silly publish   readmeFilename: 'README.md',
+67 silly publish   _id: 'ga_cookie_js_parser@0.0.1',
+67 silly publish   dist: { shasum: '4c99a52730160ce55794457b9e64edda1d4c8e4d' },
+67 silly publish   _from: '.' }
+68 verbose url raw ga_cookie_js_parser
+69 verbose url resolving [ 'https://registry.npmjs.org/', './ga_cookie_js_parser' ]
+70 verbose url resolved https://registry.npmjs.org/ga_cookie_js_parser
+71 info trying registry request attempt 1 at 19:58:26
+72 http PUT https://registry.npmjs.org/ga_cookie_js_parser
+73 http 403 https://registry.npmjs.org/ga_cookie_js_parser
+74 error publish Failed PUT 403
+75 error Error: forbidden cannot modify pre-existing version: 0.0.1
+75 error old={"name":"ga_cookie_js_parser","version":"0.0.1","description":"Parse GA cookies with JS","main":"package.json","author":{"name":"Serjo Pepper"},"engines":{"node":"*"},"_id":"ga_cookie_js_parser@0.0.1","dist":{"shasum":"4c99a52730160ce55794457b9e64edda1d4c8e4d","tarball":"http://registry.npmjs.org/ga_cookie_js_parser/-/ga_cookie_js_parser-0.0.1.tgz"},"_from":".","_npmVersion":"1.4.3","_npmUser":{"name":"serjopepper","email":"serjopepper@gmail.com"},"maintainers":[{"name":"serjopepper","email":"serjopepper@gmail.com"}]}
+75 error new={"name":"ga_cookie_js_parser","version":"0.0.1","description":"Parse GA cookies with JS","main":"package.json","author":{"name":"Serjo Pepper"},"engines":{"node":"*"},"readme":"ERROR: No README data found!","readmeFilename":"README.md","_id":"ga_cookie_js_parser@0.0.1","dist":{"shasum":"4c99a52730160ce55794457b9e64edda1d4c8e4d","tarball":"http://registry.npmjs.org/ga_cookie_js_parser/-/ga_cookie_js_parser-0.0.1.tgz"},"_from":".","_npmVersion":"1.4.3","_npmUser":{"name":"serjopepper","email":"serjopepper@gmail.com"},"maintainers":[{"name":"serjopepper","email":"serjopepper@gmail.com"}]}: ga_cookie_js_parser
+75 error     at RegClient.<anonymous> (/Users/serjopepper/.nvm/v0.10.26/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:14)
+75 error     at Request.self.callback (/Users/serjopepper/.nvm/v0.10.26/lib/node_modules/npm/node_modules/request/request.js:123:22)
+75 error     at Request.EventEmitter.emit (events.js:98:17)
+75 error     at Request.<anonymous> (/Users/serjopepper/.nvm/v0.10.26/lib/node_modules/npm/node_modules/request/request.js:893:14)
+75 error     at Request.EventEmitter.emit (events.js:117:20)
+75 error     at IncomingMessage.<anonymous> (/Users/serjopepper/.nvm/v0.10.26/lib/node_modules/npm/node_modules/request/request.js:844:12)
+75 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+75 error     at _stream_readable.js:920:16
+75 error     at process._tickCallback (node.js:415:13)
+76 error If you need help, you may report this *entire* log,
+76 error including the npm and node versions, at:
+76 error     <http://github.com/npm/npm/issues>
+77 error System Darwin 13.1.0
+78 error command "/Users/serjopepper/.nvm/v0.10.26/bin/node" "/Users/serjopepper/.nvm/v0.10.26/bin/npm" "publish"
+79 error cwd /Users/serjopepper/www/ga_cookie_js_parser
+80 error node -v v0.10.26
+81 error npm -v 1.4.3
+82 verbose exit [ 1, true ]
