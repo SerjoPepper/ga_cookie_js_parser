@@ -1,13 +1,12 @@
 0 info it worked if it ends with ok
 1 verbose cli [ '/Users/serjopepper/.nvm/v0.10.26/bin/node',
 1 verbose cli   '/Users/serjopepper/.nvm/v0.10.26/bin/npm',
-1 verbose cli   'publish',
-1 verbose cli   './' ]
+1 verbose cli   'publish' ]
 2 info using npm@1.4.3
 3 info using node@v0.10.26
-4 verbose publish [ './' ]
-5 verbose cache add [ './', null ]
-6 verbose cache add name=undefined spec="./" args=["./",null]
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
 7 verbose parsed url { protocol: null,
 7 verbose parsed url   slashes: null,
 7 verbose parsed url   auth: null,
@@ -17,47 +16,47 @@
 7 verbose parsed url   hash: null,
 7 verbose parsed url   search: null,
 7 verbose parsed url   query: null,
-7 verbose parsed url   pathname: './',
-7 verbose parsed url   path: './',
-7 verbose parsed url   href: './' }
-8 silly lockFile 0ee6c175- ./
-9 verbose lock ./ /Users/serjopepper/.npm/0ee6c175-.lock
-10 verbose tar pack [ '/var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99410-JsuegsET/1409848822509-0.42062641587108374/tmp.tgz',
-10 verbose tar pack   './' ]
-11 verbose tarball /var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99410-JsuegsET/1409848822509-0.42062641587108374/tmp.tgz
-12 verbose folder ./
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/serjopepper/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99444-ZFMd-Bo6/1409848963696-0.9356430880725384/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99444-ZFMd-Bo6/1409848963696-0.9356430880725384/tmp.tgz
+12 verbose folder .
 13 info prepublish ga_cookie_js_parser@0.0.1
-14 silly lockFile 04cb2bca-tar tar://./
-15 verbose lock tar://./ /Users/serjopepper/.npm/04cb2bca-tar.lock
-16 silly lockFile bf2b04a6-2509-0-42062641587108374-tmp-tgz tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99410-JsuegsET/1409848822509-0.42062641587108374/tmp.tgz
-17 verbose lock tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99410-JsuegsET/1409848822509-0.42062641587108374/tmp.tgz /Users/serjopepper/.npm/bf2b04a6-2509-0-42062641587108374-tmp-tgz.lock
-18 silly lockFile 04cb2bca-tar tar://./
-19 silly lockFile 04cb2bca-tar tar://./
-20 silly lockFile bf2b04a6-2509-0-42062641587108374-tmp-tgz tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99410-JsuegsET/1409848822509-0.42062641587108374/tmp.tgz
-21 silly lockFile bf2b04a6-2509-0-42062641587108374-tmp-tgz tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99410-JsuegsET/1409848822509-0.42062641587108374/tmp.tgz
-22 verbose tar unpack /var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99410-JsuegsET/1409848822509-0.42062641587108374/tmp.tgz
-23 silly lockFile 87770ae6-2509-0-42062641587108374-package tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99410-JsuegsET/1409848822509-0.42062641587108374/package
-24 verbose lock tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99410-JsuegsET/1409848822509-0.42062641587108374/package /Users/serjopepper/.npm/87770ae6-2509-0-42062641587108374-package.lock
-25 silly lockFile bf2b04a6-2509-0-42062641587108374-tmp-tgz tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99410-JsuegsET/1409848822509-0.42062641587108374/tmp.tgz
-26 verbose lock tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99410-JsuegsET/1409848822509-0.42062641587108374/tmp.tgz /Users/serjopepper/.npm/bf2b04a6-2509-0-42062641587108374-tmp-tgz.lock
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/serjopepper/.npm/1f1177db-tar.lock
+16 silly lockFile 2574e2d7-63696-0-9356430880725384-tmp-tgz tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99444-ZFMd-Bo6/1409848963696-0.9356430880725384/tmp.tgz
+17 verbose lock tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99444-ZFMd-Bo6/1409848963696-0.9356430880725384/tmp.tgz /Users/serjopepper/.npm/2574e2d7-63696-0-9356430880725384-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 2574e2d7-63696-0-9356430880725384-tmp-tgz tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99444-ZFMd-Bo6/1409848963696-0.9356430880725384/tmp.tgz
+21 silly lockFile 2574e2d7-63696-0-9356430880725384-tmp-tgz tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99444-ZFMd-Bo6/1409848963696-0.9356430880725384/tmp.tgz
+22 verbose tar unpack /var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99444-ZFMd-Bo6/1409848963696-0.9356430880725384/tmp.tgz
+23 silly lockFile ba255bb9-63696-0-9356430880725384-package tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99444-ZFMd-Bo6/1409848963696-0.9356430880725384/package
+24 verbose lock tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99444-ZFMd-Bo6/1409848963696-0.9356430880725384/package /Users/serjopepper/.npm/ba255bb9-63696-0-9356430880725384-package.lock
+25 silly lockFile 2574e2d7-63696-0-9356430880725384-tmp-tgz tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99444-ZFMd-Bo6/1409848963696-0.9356430880725384/tmp.tgz
+26 verbose lock tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99444-ZFMd-Bo6/1409848963696-0.9356430880725384/tmp.tgz /Users/serjopepper/.npm/2574e2d7-63696-0-9356430880725384-tmp-tgz.lock
 27 silly gunzTarPerm modes [ '755', '644' ]
 28 silly gunzTarPerm extractEntry package.json
 29 silly gunzTarPerm extractEntry README.md
 30 silly gunzTarPerm extractEntry parser.js
-31 silly lockFile 87770ae6-2509-0-42062641587108374-package tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99410-JsuegsET/1409848822509-0.42062641587108374/package
-32 silly lockFile 87770ae6-2509-0-42062641587108374-package tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99410-JsuegsET/1409848822509-0.42062641587108374/package
-33 silly lockFile bf2b04a6-2509-0-42062641587108374-tmp-tgz tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99410-JsuegsET/1409848822509-0.42062641587108374/tmp.tgz
-34 silly lockFile bf2b04a6-2509-0-42062641587108374-tmp-tgz tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99410-JsuegsET/1409848822509-0.42062641587108374/tmp.tgz
+31 silly lockFile ba255bb9-63696-0-9356430880725384-package tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99444-ZFMd-Bo6/1409848963696-0.9356430880725384/package
+32 silly lockFile ba255bb9-63696-0-9356430880725384-package tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99444-ZFMd-Bo6/1409848963696-0.9356430880725384/package
+33 silly lockFile 2574e2d7-63696-0-9356430880725384-tmp-tgz tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99444-ZFMd-Bo6/1409848963696-0.9356430880725384/tmp.tgz
+34 silly lockFile 2574e2d7-63696-0-9356430880725384-tmp-tgz tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99444-ZFMd-Bo6/1409848963696-0.9356430880725384/tmp.tgz
 35 verbose tar pack [ '/Users/serjopepper/.npm/ga_cookie_js_parser/0.0.1/package.tgz',
-35 verbose tar pack   '/var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99410-JsuegsET/1409848822509-0.42062641587108374/package' ]
+35 verbose tar pack   '/var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99444-ZFMd-Bo6/1409848963696-0.9356430880725384/package' ]
 36 verbose tarball /Users/serjopepper/.npm/ga_cookie_js_parser/0.0.1/package.tgz
-37 verbose folder /var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99410-JsuegsET/1409848822509-0.42062641587108374/package
-38 silly lockFile 87770ae6-2509-0-42062641587108374-package tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99410-JsuegsET/1409848822509-0.42062641587108374/package
-39 verbose lock tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99410-JsuegsET/1409848822509-0.42062641587108374/package /Users/serjopepper/.npm/87770ae6-2509-0-42062641587108374-package.lock
+37 verbose folder /var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99444-ZFMd-Bo6/1409848963696-0.9356430880725384/package
+38 silly lockFile ba255bb9-63696-0-9356430880725384-package tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99444-ZFMd-Bo6/1409848963696-0.9356430880725384/package
+39 verbose lock tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99444-ZFMd-Bo6/1409848963696-0.9356430880725384/package /Users/serjopepper/.npm/ba255bb9-63696-0-9356430880725384-package.lock
 40 silly lockFile e3067586-okie-js-parser-0-0-1-package-tgz tar:///Users/serjopepper/.npm/ga_cookie_js_parser/0.0.1/package.tgz
 41 verbose lock tar:///Users/serjopepper/.npm/ga_cookie_js_parser/0.0.1/package.tgz /Users/serjopepper/.npm/e3067586-okie-js-parser-0-0-1-package-tgz.lock
-42 silly lockFile 87770ae6-2509-0-42062641587108374-package tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99410-JsuegsET/1409848822509-0.42062641587108374/package
-43 silly lockFile 87770ae6-2509-0-42062641587108374-package tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99410-JsuegsET/1409848822509-0.42062641587108374/package
+42 silly lockFile ba255bb9-63696-0-9356430880725384-package tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99444-ZFMd-Bo6/1409848963696-0.9356430880725384/package
+43 silly lockFile ba255bb9-63696-0-9356430880725384-package tar:///var/folders/yf/mpvj_6bd1y52yk3t1vcyzmym0000gn/T/npm-99444-ZFMd-Bo6/1409848963696-0.9356430880725384/package
 44 silly lockFile e3067586-okie-js-parser-0-0-1-package-tgz tar:///Users/serjopepper/.npm/ga_cookie_js_parser/0.0.1/package.tgz
 45 silly lockFile e3067586-okie-js-parser-0-0-1-package-tgz tar:///Users/serjopepper/.npm/ga_cookie_js_parser/0.0.1/package.tgz
 46 silly lockFile 62c4043b-a-cookie-js-parser-0-0-1-package /Users/serjopepper/.npm/ga_cookie_js_parser/0.0.1/package
@@ -79,29 +78,29 @@
 62 silly lockFile e3067586-okie-js-parser-0-0-1-package-tgz tar:///Users/serjopepper/.npm/ga_cookie_js_parser/0.0.1/package.tgz
 63 verbose chmod /Users/serjopepper/.npm/ga_cookie_js_parser/0.0.1/package.tgz 644
 64 verbose chown /Users/serjopepper/.npm/ga_cookie_js_parser/0.0.1/package.tgz [ 501, 20 ]
-65 silly lockFile 0ee6c175- ./
-66 silly lockFile 0ee6c175- ./
+65 silly lockFile 3a52ce78- .
+66 silly lockFile 3a52ce78- .
 67 silly publish { name: 'ga_cookie_js_parser',
 67 silly publish   version: '0.0.1',
 67 silly publish   description: 'Parse GA cookies with JS',
 67 silly publish   main: 'package.json',
 67 silly publish   author: { name: 'Serjo Pepper' },
 67 silly publish   engines: { node: '*' },
-67 silly publish   readme: '# Google Analytics cookie JS parser\n\n> Allows you to parse with JS\n> https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage#gajs\n\n## Install\n    $ npm install -g phonegap\n\n    $ var gaCookieParser = require(\'ga_cookie_js_parser\')\n\n    Or download parser.js\n\n## Getting Started\n    console.log(gaCookieParser(document.cookie))\n\n    {\n        utma: {\n            domainHash: \'12345\',\n            userId: \'123\', // GA userId\n            initialVisitTs: 1294887021, // unix timestamp\n            previousVisitTs: 1294887021, // unix timestamp\n            currentVisitTs: 1294887021, // unix timestamp\n            pageViews: 5 // page views count in this 30 min session\n        },\n\n        utmb: {\n            domainHash: \'12345\',\n            pageViews: 5, // page views count in this 30 min session\n            outboundClick: 10, // number of outbound links clicked counting down from 10\n            currentVisitTs: 1294887021, // unix timestamp\n        },\n\n        utmc: {\n            domainHash: \'12345\'\n        },\n\n        utmz: {\n            domainHash: \'12345\',\n            lastCookiesUpdateTs: 1294887021, // unix timestamp\n            sessionCounter: 1, // number of sessions from incoming sites\n            resourceCounter: 1, // number of sites, which user comes from\n            utmcsr: \'google\', // source\n            utmccn: \'partner_287\', // campaign name\n            utmcmd: \'organic\', // medium\n            utmctr: \'search term\', // term(s)\n            utmcct: \'/ref.php\', // content (referring page in case of referrals)\n            utmgclid: \'CI7wh8C6tKYCFU2DpAod7z97IQ\' // gclid, linking referral back to adwords\n        }\n    }\n\n',
+67 silly publish   readme: '# Google Analytics cookie JS parser\n\n> Allows you to parse with JS\n> https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage#gajs\n\n## Install\n    $ npm install ga_cookie_js_parser\n\n    $ var gaCookieParser = require(\'ga_cookie_js_parser\')\n\n    Or download parser.js\n\n## Getting Started\n    console.log(gaCookieParser(document.cookie))\n\n    {\n        utma: {\n            domainHash: \'12345\',\n            userId: \'123\', // GA userId\n            initialVisitTs: 1294887021, // unix timestamp\n            previousVisitTs: 1294887021, // unix timestamp\n            currentVisitTs: 1294887021, // unix timestamp\n            pageViews: 5 // page views count in this 30 min session\n        },\n\n        utmb: {\n            domainHash: \'12345\',\n            pageViews: 5, // page views count in this 30 min session\n            outboundClick: 10, // number of outbound links clicked counting down from 10\n            currentVisitTs: 1294887021, // unix timestamp\n        },\n\n        utmc: {\n            domainHash: \'12345\'\n        },\n\n        utmz: {\n            domainHash: \'12345\',\n            lastCookiesUpdateTs: 1294887021, // unix timestamp\n            sessionCounter: 1, // number of sessions from incoming sites\n            resourceCounter: 1, // number of sites, which user comes from\n            utmcsr: \'google\', // source\n            utmccn: \'partner_287\', // campaign name\n            utmcmd: \'organic\', // medium\n            utmctr: \'search term\', // term(s)\n            utmcct: \'/ref.php\', // content (referring page in case of referrals)\n            utmgclid: \'CI7wh8C6tKYCFU2DpAod7z97IQ\' // gclid, linking referral back to adwords\n        }\n    }\n\n',
 67 silly publish   readmeFilename: 'README.md',
 67 silly publish   _id: 'ga_cookie_js_parser@0.0.1',
-67 silly publish   dist: { shasum: '82a4165139bdf95c946edc99b7d3a6816ec292b6' },
-67 silly publish   _from: './' }
+67 silly publish   dist: { shasum: '86ee7b094d85977bc67b42566651c235a1942cdd' },
+67 silly publish   _from: '.' }
 68 verbose url raw ga_cookie_js_parser
 69 verbose url resolving [ 'https://registry.npmjs.org/', './ga_cookie_js_parser' ]
 70 verbose url resolved https://registry.npmjs.org/ga_cookie_js_parser
-71 info trying registry request attempt 1 at 20:40:22
+71 info trying registry request attempt 1 at 20:42:43
 72 http PUT https://registry.npmjs.org/ga_cookie_js_parser
 73 http 403 https://registry.npmjs.org/ga_cookie_js_parser
 74 error publish Failed PUT 403
 75 error Error: forbidden cannot modify pre-existing version: 0.0.1
 75 error old={"name":"ga_cookie_js_parser","version":"0.0.1","description":"Parse GA cookies with JS","main":"package.json","author":{"name":"Serjo Pepper"},"engines":{"node":"*"},"_id":"ga_cookie_js_parser@0.0.1","dist":{"shasum":"4c99a52730160ce55794457b9e64edda1d4c8e4d","tarball":"http://registry.npmjs.org/ga_cookie_js_parser/-/ga_cookie_js_parser-0.0.1.tgz"},"_from":".","_npmVersion":"1.4.3","_npmUser":{"name":"serjopepper","email":"serjopepper@gmail.com"},"maintainers":[{"name":"serjopepper","email":"serjopepper@gmail.com"}]}
-75 error new={"name":"ga_cookie_js_parser","version":"0.0.1","description":"Parse GA cookies with JS","main":"package.json","author":{"name":"Serjo Pepper"},"engines":{"node":"*"},"readme":"# Google Analytics cookie JS parser\u000a\u000a> Allows you to parse with JS\u000a> https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage#gajs\u000a\u000a## Install\u000a    $ npm install -g phonegap\u000a\u000a    $ var gaCookieParser = require('ga_cookie_js_parser')\u000a\u000a    Or download parser.js\u000a\u000a## Getting Started\u000a    console.log(gaCookieParser(document.cookie))\u000a\u000a    {\u000a        utma: {\u000a            domainHash: '12345',\u000a            userId: '123', // GA userId\u000a            initialVisitTs: 1294887021, // unix timestamp\u000a            previousVisitTs: 1294887021, // unix timestamp\u000a            currentVisitTs: 1294887021, // unix timestamp\u000a            pageViews: 5 // page views count in this 30 min session\u000a        },\u000a\u000a        utmb: {\u000a            domainHash: '12345',\u000a            pageViews: 5, // page views count in this 30 min session\u000a            outboundClick: 10, // number of outbound links clicked counting down from 10\u000a            currentVisitTs: 1294887021, // unix timestamp\u000a        },\u000a\u000a        utmc: {\u000a            domainHash: '12345'\u000a        },\u000a\u000a        utmz: {\u000a            domainHash: '12345',\u000a            lastCookiesUpdateTs: 1294887021, // unix timestamp\u000a            sessionCounter: 1, // number of sessions from incoming sites\u000a            resourceCounter: 1, // number of sites, which user comes from\u000a            utmcsr: 'google', // source\u000a            utmccn: 'partner_287', // campaign name\u000a            utmcmd: 'organic', // medium\u000a            utmctr: 'search term', // term(s)\u000a            utmcct: '/ref.php', // content (referring page in case of referrals)\u000a            utmgclid: 'CI7wh8C6tKYCFU2DpAod7z97IQ' // gclid, linking referral back to adwords\u000a        }\u000a    }\u000a\u000a","readmeFilename":"README.md","_id":"ga_cookie_js_parser@0.0.1","dist":{"shasum":"82a4165139bdf95c946edc99b7d3a6816ec292b6","tarball":"http://registry.npmjs.org/ga_cookie_js_parser/-/ga_cookie_js_parser-0.0.1.tgz"},"_from":"./","_npmVersion":"1.4.3","_npmUser":{"name":"serjopepper","email":"serjopepper@gmail.com"},"maintainers":[{"name":"serjopepper","email":"serjopepper@gmail.com"}]}: ga_cookie_js_parser
+75 error new={"name":"ga_cookie_js_parser","version":"0.0.1","description":"Parse GA cookies with JS","main":"package.json","author":{"name":"Serjo Pepper"},"engines":{"node":"*"},"readme":"# Google Analytics cookie JS parser\u000a\u000a> Allows you to parse with JS\u000a> https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage#gajs\u000a\u000a## Install\u000a    $ npm install ga_cookie_js_parser\u000a\u000a    $ var gaCookieParser = require('ga_cookie_js_parser')\u000a\u000a    Or download parser.js\u000a\u000a## Getting Started\u000a    console.log(gaCookieParser(document.cookie))\u000a\u000a    {\u000a        utma: {\u000a            domainHash: '12345',\u000a            userId: '123', // GA userId\u000a            initialVisitTs: 1294887021, // unix timestamp\u000a            previousVisitTs: 1294887021, // unix timestamp\u000a            currentVisitTs: 1294887021, // unix timestamp\u000a            pageViews: 5 // page views count in this 30 min session\u000a        },\u000a\u000a        utmb: {\u000a            domainHash: '12345',\u000a            pageViews: 5, // page views count in this 30 min session\u000a            outboundClick: 10, // number of outbound links clicked counting down from 10\u000a            currentVisitTs: 1294887021, // unix timestamp\u000a        },\u000a\u000a        utmc: {\u000a            domainHash: '12345'\u000a        },\u000a\u000a        utmz: {\u000a            domainHash: '12345',\u000a            lastCookiesUpdateTs: 1294887021, // unix timestamp\u000a            sessionCounter: 1, // number of sessions from incoming sites\u000a            resourceCounter: 1, // number of sites, which user comes from\u000a            utmcsr: 'google', // source\u000a            utmccn: 'partner_287', // campaign name\u000a            utmcmd: 'organic', // medium\u000a            utmctr: 'search term', // term(s)\u000a            utmcct: '/ref.php', // content (referring page in case of referrals)\u000a            utmgclid: 'CI7wh8C6tKYCFU2DpAod7z97IQ' // gclid, linking referral back to adwords\u000a        }\u000a    }\u000a\u000a","readmeFilename":"README.md","_id":"ga_cookie_js_parser@0.0.1","dist":{"shasum":"86ee7b094d85977bc67b42566651c235a1942cdd","tarball":"http://registry.npmjs.org/ga_cookie_js_parser/-/ga_cookie_js_parser-0.0.1.tgz"},"_from":".","_npmVersion":"1.4.3","_npmUser":{"name":"serjopepper","email":"serjopepper@gmail.com"},"maintainers":[{"name":"serjopepper","email":"serjopepper@gmail.com"}]}: ga_cookie_js_parser
 75 error     at RegClient.<anonymous> (/Users/serjopepper/.nvm/v0.10.26/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:14)
 75 error     at Request.self.callback (/Users/serjopepper/.nvm/v0.10.26/lib/node_modules/npm/node_modules/request/request.js:123:22)
 75 error     at Request.EventEmitter.emit (events.js:98:17)
@@ -115,7 +114,7 @@
 76 error including the npm and node versions, at:
 76 error     <http://github.com/npm/npm/issues>
 77 error System Darwin 13.1.0
-78 error command "/Users/serjopepper/.nvm/v0.10.26/bin/node" "/Users/serjopepper/.nvm/v0.10.26/bin/npm" "publish" "./"
+78 error command "/Users/serjopepper/.nvm/v0.10.26/bin/node" "/Users/serjopepper/.nvm/v0.10.26/bin/npm" "publish"
 79 error cwd /Users/serjopepper/www/ga_cookie_js_parser
 80 error node -v v0.10.26
 81 error npm -v 1.4.3
