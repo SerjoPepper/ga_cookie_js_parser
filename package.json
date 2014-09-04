@@ -1,0 +1,8 @@
+{
+    "name": "ga_cookie_js_parser",
+    "version": "0.0.1",
+    "description": "Parse GA cookies with JS",
+    "main": "package.json",
+    "author": "Serjo Pepper",
+    "engines": { "node": "*" }
+}
