@@ -1,9 +1,9 @@
-(function () {
+(function (global) {
 
   if (typeof module === 'object' && typeof module.exports === 'object') {
     module.exports = gaCookieParser;
   } else {
-    window.gaCookieParser = gaCookieParser;
+    global.gaCookieParser = gaCookieParser;
   }
 
   /**
@@ -21,7 +21,7 @@
       return res;
     }
 
-    document.cookie.replace(/(?:^| |;)__(utm[^;$]*)/g, function (_, tagMatch) {
+    rawCookie.replace(/(?:^| |;)__(utm[^;$]*)/g, function (_, tagMatch) {
       var type = tagMatch.slice(0, 4);
       var content = tagMatch.slice(5).split('.');
       var resObj = res[type];
@@ -60,7 +60,11 @@
         // utmcct: '/ref.php - content (referring page in case of referrals)
         content[4].split('|').map(function (p) {
           p = p.split('=');
-          resObj[p[0]] = decodeURIComponent(p[1].replace(/^\(?(.*?)\)?$/, '$1'));
+          try {
+            resObj[p[0]] = global.unescape(/^\(.*\)$/.test(p[1]) ? p[1].replace(/^\(?(.*?)\)?$/, '$1') : p[1]);
+          } catch (e) {
+            resObj[p[0]] = p[1];
+          }
         });
       }
     });
@@ -68,4 +72,4 @@
     return res;
   }
 
-})();
+})(typeof window !== 'undefined' ? window : global);
